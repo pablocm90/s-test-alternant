@@ -66,3 +66,126 @@ end
         answer: 1 ,
         quizz_id: 1,
     })
+
+Quizz.create({
+  title: "La géographie européenne",
+
+  })
+    Question.create({
+      question: "Combien y a-t-il d'habitants, à 500 000 près, en Moldavie ?",
+      response1: "3 000 000 habitants",
+      response2: "3 500 000 habitants",
+      response3: "4 000 000 habitants",
+      response4: "4 500 000 habitants",
+      answer: 2 ,
+      quizz_id: 2,
+      })
+
+
+    Question.create({
+      question: "Combien y a-t-il d'habitants, à 1 500 000 près, en Finlande ?",
+      response1: "4 000 000 habitants",
+      response2: "5 500 000 habitants",
+      response3: "7 000 000 habitants",
+      response4: "8 500 000 habitants",
+      answer: 2,
+      quizz_id: 2,
+    })
+
+
+    Question.create({
+      question: "Quelle est la principale religion en Hongrie ?",
+      response1: "Le christianisme",
+      response2: "Le judaïsme",
+      response3: "Le folklorique",
+      response4: "L'islam ",
+      answer: 1,
+      quizz_id: 2,
+    })
+
+    Question.create({
+      question: "Quelle est la capitale des Pays-Bas ?",
+      response1: "Amsterdam",
+      response2: "Chișinău ",
+      response3: "Cité du Vatican ",
+      response4: "Rouen ",
+      answer: 1 ,
+      quizz_id: 2,
+    })
+
+    Question.create({
+      question: "Quelle est le pays ayant un drapeau rouge, de forme carrée avec une croix blanche au centre ?",
+      response1: "Amhara",
+      response2: "la Biélorussie",
+      response3: "la Suisse",
+      response4: "Vatican",
+      answer: 3,
+      quizz_id: 2,
+    })
+
+
+Quizz.create({
+  title: "Culture Génerale - Difficile",
+
+  })
+
+  Question.create({
+    question: "Quel est le synonyme de ''avant-avant-dernier'' ?",
+    response1: "Pénultième",
+    response2: "Antépénultième",
+    response3: "Préantépénultième",
+    response4: "Premier",
+    answer: 2,
+    quizz_id: 3,
+  })
+
+  Question.create({
+    question: "De quel signe astrologique est une personne née le 1er avril ?",
+    response1: "Capricorne",
+    response2: "Bélier",
+    response3: "Taureau",
+    response4: "Vierge",
+    answer: 2,
+    quizz_id: 3,
+  })
+
+  Question.create({
+    question: "Quelle est la plus petite planète du Système solaire ?",
+    response1: "Mercure",
+    response2: "Vénus",
+    response3: "Neptune",
+    response4: "La Terre",
+    answer: 1,
+    quizz_id: 3,
+  })
+
+  Question.create({
+    question: "Lequel de ces romans est une œuvre de Léon Tolstoï ?",
+    response1: "Anna Karénine",
+    response2: "Le Joueur",
+    response3: "L'idiot",
+    response4: "L'illetré",
+    answer: 1,
+    quizz_id: 3,
+  })
+
+
+  Question.create({
+    question: "Dans la mythologie romaine, qui est le dieu de la vigne et du vin ?",
+    response1: "Dionysos",
+    response2: "Plutus",
+    response3: "Bacchus",
+    response4: "Poseïdon",
+    answer: 3,
+    quizz_id: 3,
+  })
+
+  Question.create({
+    question: "Pendant la Seconde Guerre mondiale, dans quel pays Anne Frank est-elle restée cachée, confinée ?",
+    response1: "En Belgique",
+    response2: "Aux Pays-Bas",
+    response3: "Au Luxembourg",
+    response4: "En Allemagne",
+    answer: 2,
+    quizz_id: 3,
+  })
