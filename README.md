@@ -1,5 +1,17 @@
 ## Setup
- TO BE COMPLETED
+
+### Quizz App Ruby on Rails + React
+ - Clone the repo
+ - The folder quizz-api has the RESTFUL API on it
+ - Launch the API server with `rails server` in the root folder, it will run the API in *localhost:3000*
+   - All the POST GET DESTROY PUT methods are located in *localhost:3000/api/v1*
+ - Seed quizzs and questions by `rails db:seed`
+ 
+ - The folder quizz-front has the Front side on it
+ - Launch the react server with `npm start` in the root folder, it will run the React app in *localhost:4000*
+ - To access to the quizzs you need log in
+ - You can access to your score at the Quizz related dashboard -> If you have more than 60 % of the quizz right you win !
+ 
 
 ## Guidelines
 - Fork this repository
