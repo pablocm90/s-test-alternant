@@ -1,0 +1,56 @@
+header {
+  display:flex;
+}
+.guest-items {
+  display:flex
+}
+.guest-items li {
+  justify-content: center;
+}
+.user-dashboard {
+  display: flex;
+}
+.user-dashboard .btn-user {
+  margin:0 10px 0 10px;
+}
+main {
+  padding:50px;
+}
+.welcome {
+  padding:50px;
+}
+.unauthorized {
+  padding:50px;
+}
+.response {
+  border-radius: 0%;
+  height:100px;
+  width:100px;
+}
+
+.submit-container {
+  position:absolute;
+  bottom:30px;
+  right:20px;
+}
+.login-container {
+  line-height: 150px;
+  margin: 0 auto;
+  width:400px;
+}
+.login-container input {
+  margin: 10px 0 10px 0;
+}
+.submit-btn {
+  margin-right: 20px;
+
+}
+
+.form-container {
+  margin: 0 auto;
+  padding:50px;
+  max-width:500px;
+}
+.input-form {
+  margin:15px 0 15px 0;
+}
